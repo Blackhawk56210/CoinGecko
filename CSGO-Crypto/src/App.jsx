@@ -3,6 +3,7 @@ import Herosection from './assets/Sections/Herosection'
 import Features from './assets/Sections/Features'
 import Cases from './assets/Sections/Cases'
 import Dashboard from './assets/Sections/Dashboard'
+import Caseselection from './assets/Sections/Case-selection'
 import Reviews from './assets/Sections/Reviews'
 import Footer from './assets/Sections/Footer'
 import './App.css'
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <Cases />
       <Dashboard />
+      <Caseselection />
       <Reviews />
       <Footer />
     </>

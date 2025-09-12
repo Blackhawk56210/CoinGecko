@@ -3,7 +3,7 @@ import React from "react";
 function Dashboard() {
   return (
     <>
-      <section id="dashboard" class="py-20 bg-gray-900">
+      <section id="dashboard" class="py-15 bg-gray-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-bold text-center text-white mb-12">Your Dashboard</h2>
             

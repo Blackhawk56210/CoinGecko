@@ -3,11 +3,18 @@ import React from "react";
 function Cases() {
   return (
     <>
+    <section>
+      <div className="max-w-7xl py-15 bg-gray-900 mx-auto px-4 sm:px-6 lg:px-8">
+        <h2
+          className="text-4xl font-bold text-center text-white"
+        >
+          Premium Cases
+        </h2>
+      </div>
       <div className="grid grid-cols-1 p-6 bg-gray-900 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div
           className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer case-card"
           onclick="openModal('modal1')"
-          id="el-5p1ov2tt"
         >
           <img
             src="https://images.unsplash.com/photo-1617507171089-6cb9aa5add36?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8bmVvbiUyMGdhbWluZyUyMHNldHVwfGVufDF8MHx8fDE3NTc3MTM1MzV8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
@@ -23,7 +30,10 @@ function Cases() {
               Contains 0.05-0.5 BTC rewards
             </p>
             <div className="flex justify-between items-center" id="el-vkw7iylo">
-              <span className="text-2xl font-bold text-purple-400" id="el-fbnjcr0h">
+              <span
+                className="text-2xl font-bold text-purple-400"
+                id="el-fbnjcr0h"
+              >
                 $99
               </span>
               <button
@@ -55,7 +65,10 @@ function Cases() {
               Contains 0.1-1 BTC rewards
             </p>
             <div className="flex justify-between items-center" id="el-wqpdaz8u">
-              <span className="text-2xl font-bold text-purple-400" id="el-dfr4sx7v">
+              <span
+                className="text-2xl font-bold text-purple-400"
+                id="el-dfr4sx7v"
+              >
                 $199
               </span>
               <button
@@ -87,7 +100,10 @@ function Cases() {
               Contains 0.5-5 BTC rewards
             </p>
             <div className="flex justify-between items-center" id="el-zj18qrs7">
-              <span className="text-2xl font-bold text-purple-400" id="el-7z2qjkmy">
+              <span
+                className="text-2xl font-bold text-purple-400"
+                id="el-7z2qjkmy"
+              >
                 $499
               </span>
               <button
@@ -100,6 +116,7 @@ function Cases() {
           </div>
         </div>
       </div>
+    </section>
     </>
   );
 }
