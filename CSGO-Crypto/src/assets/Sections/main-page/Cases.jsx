@@ -4,7 +4,7 @@ function Cases() {
   return (
     <>
     <section>
-      <div className="max-w-7xl py-15 bg-gray-900 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="py-15 bg-gray-900 mx-auto px-4 sm:px-6 lg:px-8">
         <h2
           className="text-4xl font-bold text-center text-white"
         >
