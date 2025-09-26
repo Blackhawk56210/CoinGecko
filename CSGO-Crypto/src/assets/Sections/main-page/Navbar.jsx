@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
 import { LogIn as LogInIcon } from "lucide-react";
+import Signin from "../login/sign-in";
 
 // fix spacing
 
@@ -59,13 +60,11 @@ function Navbar() {
             <div className="flex items-center space-x-4">
               <NavLink
               className="text-gray-300 hover:text-white transition-colors "
-              to="../login/sing-in.jsx"
+              to="/sign-in"
               >  
                 <LogInIcon />
               </NavLink>
-                <button type="button" className="hover:cursor-pointer">
-                  
-                </button>
+                
               <button className="text-gray-300 hover:text-white transition-colors">
                 <svg
                   className="w-5 h-5"
